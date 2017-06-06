@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "SEMESTER TWO READING RESOURCES",
+  "description": "This extension list the course unit done in semester by BSCs students",
+  "version": "1.0",
+ 
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "background":{"script":"background.js"},
+  "permissions": [
+   "activeTab"
+   ]
+}
